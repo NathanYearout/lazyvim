@@ -4,7 +4,9 @@ return {
     opts = {
       window = {
         position = "right",
+        width = 30,
       },
+      auto_expand_width = false,
     },
   },
 }
