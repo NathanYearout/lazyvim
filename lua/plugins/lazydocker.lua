@@ -1,19 +1,14 @@
 return {
   {
-    "crnvl96/lazydocker.nvim",
+    "LazyVim/LazyVim",
     keys = {
       {
         "<leader>dd",
         function()
-          require("lazydocker").toggle()
+          require("lazyvim.util").float_term({ "lazydocker" })
         end,
-        desc = "Toggle Lazydocker",
+        desc = "Open Lazydocker",
       },
-    },
-    event = "VeryLazy",
-    opts = {},
-    dependencies = {
-      "MunifTanjim/nui.nvim",
     },
   },
 }
