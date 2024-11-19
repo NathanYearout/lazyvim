@@ -5,9 +5,11 @@ return {
       {
         "<leader>dd",
         function()
-          require("lazyvim.util").float_term({ "lazydocker" })
+          require("snacks.terminal").toggle("lazydocker", {
+            win = { style = "terminal", size = 0.8 },
+          })
         end,
-        desc = "Open Lazydocker",
+        desc = "Toggle Lazydocker",
       },
     },
   },
