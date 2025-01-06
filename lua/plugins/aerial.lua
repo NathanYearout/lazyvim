@@ -1,6 +1,15 @@
 return {
   "stevearc/aerial.nvim",
-  opts = {},
+  lazy = false,
+  opts = {
+    open_automatic = true,
+    highlight_on_hover = true,
+    autojump = true,
+    layout = {
+      placement = "edge",
+      default_direction = "left",
+    },
+  },
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
     "nvim-tree/nvim-web-devicons",
