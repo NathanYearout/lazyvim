@@ -2,7 +2,6 @@ return {
   "stevearc/aerial.nvim",
   lazy = false,
   opts = {
-    open_automatic = true,
     highlight_on_hover = true,
     autojump = true,
     layout = {
