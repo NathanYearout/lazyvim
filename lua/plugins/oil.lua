@@ -11,9 +11,6 @@ return {
       float = {
         padding = 5,
         border = "rounded",
-        win_options = {
-          winblend = 10,
-        },
       },
     },
     dependencies = { "nvim-tree/nvim-web-devicons" },
