@@ -12,4 +12,10 @@ return {
       jump_prev_row = { "<S-Enter>", mode = { "n", "v" } },
     },
   },
+  init = function()
+    vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+      pattern = "*.csv",
+      command = "CsvViewEnable",
+    })
+  end,
 }
