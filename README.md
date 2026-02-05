@@ -10,9 +10,16 @@ Focused on a smooth editing experience without bloat. Adds plugins I use regular
 - Custom theme (I change this from time-to-time to keep things fresh to me)
 
 ## Install
+
+Linux:
 ```bash
 git clone https://github.com/NathanYearout/lazyvim.git ~/.config/nvim
 nvim
+```
+
+Windows:
+```bash
+git clone https://github.com/NathanYearout/lazyvim.git $env:LOCALAPPDATA\nvim
 ```
 
 ## Customize
