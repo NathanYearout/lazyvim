@@ -20,6 +20,7 @@ nvim
 Windows:
 ```bash
 git clone https://github.com/NathanYearout/lazyvim.git $env:LOCALAPPDATA\nvim
+nvim
 ```
 
 ## Customize
